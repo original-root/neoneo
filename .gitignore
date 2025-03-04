@@ -1,0 +1,101 @@
+# Build directories
+build/
+bin/
+obj/
+lib/
+out/
+cmake-build-*/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+neoneo
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+*.cmake
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# VSCode
+.vscode/ipch/
+.vscode/.browse.VC.db*
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+cmake-build-*/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs
+*.log
+log/
+logs/
+
+# Generated files
+*.generated.*
+*_generated.h
+generated/*.h
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dependency directories
+vendor/
+external/downloaded/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Config files that might contain secrets
+config.json
+secrets.json
+
+# Core dumps
+core
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Project-specific directories
+testingground/
